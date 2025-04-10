@@ -1,0 +1,12 @@
+name = "secure-worker"
+main = "src/index.js"
+account_id = "35c640e2fe604f0b4599ae82a5c92154"
+compatibility_date = "2024-04-01" 
+workers_dev = false
+r2_buckets = [
+  { binding = "COUNTRY_FLAGS", bucket_name = "country-flags" }
+]
+
+[[r2_buckets]]
+binding = "COUNTRY_FLAGS"         
+bucket_name = "country-flags"
