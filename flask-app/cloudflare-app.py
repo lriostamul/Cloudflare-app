@@ -11,7 +11,7 @@ def protected():
     headers = dict(request.headers)
     html_template = """
     <html>
-        <head><title>Protected Path</title></head>
+        <head><title>Protected Path </title></head>
         <body>
             <h1 style="color: darkred;">Protected Path</h1>
             <pre>{{ headers | tojson(indent=2) }}</pre>
